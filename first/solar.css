@@ -1,0 +1,70 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.solar-system{
+    display:flex;
+    justify-content: center;
+}
+.solar-system .container{
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    border: 2px solid black;
+    /*animation: rotate 5s linear infinite; */
+    justify-content: center;
+    align-items: center;
+    display:flex;
+}
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.solar-system .container .earth .sun{
+       height: 250px;
+       width:250px;
+       border-radius: 50%;
+       background: #FD1D1D;
+       background: linear-gradient(90deg,rgba(253, 29, 29, 1) 18%, rgba(253, 87, 45, 1) 39%, rgba(252, 121, 69, 1) 100%);
+       color: rgb(241, 237, 237);
+       font-size: 28px; 
+       text-align: center;
+       align-content: center;
+
+}
+.solar-system .container .earth{
+ position: relative;
+    animation: rotate 5s linear infinite; 
+}
+.solar-system .container .earth img {
+     position: absolute;
+     top: -220px;
+}
+
+
+.star{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: lightsalmon;
+    animation: astroid 5s linear infinite;
+}
+
+@keyframes astroid{
+    from{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    to{
+        position: absolute;
+        top:100%;
+        left: 100%;
+    }
+}
+

@@ -1,0 +1,140 @@
+/* .boxes{
+    height:800px;
+    text-align: center;
+    background-color: lightseagreen;
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* align-items: start;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column-reverse; */
+    /* gap: 60px;
+    position: relative;
+} */ 
+
+/* display flex is used to manage the box in single dimension i.e either in row or in column */
+
+/* .box1, .box2, .box4, .box3, .box5 { */
+    /* display: block; */
+    /* display: inline; */
+    /* display: contents; */
+    /* display: none; */
+    /* display: table-row; */
+
+
+/* }
+.boxes .box1{
+    height: 200px;
+    width:100px;
+    background-color: brown;
+    align-content: center;
+    align-self: flex-start;
+    /* display: inline; */
+    /* position: fixed;
+    bottom: 0;
+    right: 0;
+} */ 
+/* .box2{
+    height: 200px;
+    width:100px;
+    background-color: black;
+    color: aliceblue;
+    align-content: center;
+    align-content: start;
+    position:sticky;
+    top: 20px; */
+/* }
+.box3{
+    /* height: 200px; */
+    /* width:100px;
+    background-color: green;
+    align-content: center; */
+    /* flex-grow: 1; */
+    /* position: relative; */ 
+    /* top: 40%; */
+    /* left: 50%;  */
+   
+/* }
+.box4{ */
+    /* height: 200px;
+    width:100px; */
+    /* background-color: orange;
+    align-content: center; */
+    /* flex-shrink: 1; */
+    /* position: absolute;
+    top: 45%;
+    left: 45%;
+} */
+/* .box5{
+    height: 200px;
+    width:100px;
+    background-color: blue;
+    align-content: center;
+} */
+*{
+    margin:0;
+    padding:0%;
+}
+.boxes{
+    background-color: aquamarine;
+    display: flex;
+    height:900px;
+    width:900px;
+    position: relative;
+    justify-self: center;
+    align-self:center;
+}
+.box1, .box2, .box3, .box4, .box5{
+    text-align: center;
+    align-content: center;
+    position: relative;
+    
+}
+.boxes .box1{
+    height:100px;
+    width:100px;
+    background-color: black;
+    color: aliceblue;
+    align-self: start;
+    justify-self: start;  
+}
+
+.boxes .box2{
+    height:100px;
+    width:100px;
+    background-color: black;
+    color: aliceblue;
+    justify-self:start;
+    position: absolute;
+    align-self: end;
+    
+    
+}
+.boxes .box3{
+    height:100px;
+    width:100px;
+    background-color: black;
+    color: aliceblue;
+    justify-self: end;
+    align-self: start;
+    left: 77.8%;
+}
+.boxes .box4{
+    height:100px;
+    width:100px;
+    background-color: black;
+    color: aliceblue;
+    justify-self: end;
+    align-self: end;
+    left: 66.8%;
+     
+}
+.boxes .box5{
+    height:100px;
+    width:100px;
+    background-color: black;
+    color: aliceblue;
+    justify-self: center;
+    align-self: center;
+    left:12%;
+    
+}

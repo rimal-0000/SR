@@ -1,0 +1,76 @@
+.scroll{
+    background-color: rgb(235, 235, 229);
+    padding: 20px 0;
+    text-align: center;
+}
+.scroll .blocks{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    gap: 100px;
+    flex-wrap:wrap;
+    animation:scroll linear;
+    animation-timeline: view();
+    text-align: center;
+    flex-direction: column;
+
+}
+    
+.box1, .box2, .box3, .box4, .box5, .box6,.box7{
+    padding: 20px;
+    margin: 20px;
+}
+@keyframes scroll{
+    from{
+        opacity: 0;
+        transform: translate(-50px,-50px);
+    }
+    to{
+        opacity: 2;
+        transform: translate(200px,200px);
+    }
+}
+
+.scroll .blocks .box1{
+    background-color: rgb(5, 17, 17);
+    height:100px;
+    width:600px;
+}
+.scroll .blocks .box2{
+    background-color: rgb(19, 235, 163);
+     height:100px;
+    width:500px;
+}
+.scroll .blocks .box3{
+    background-color: rgb(233, 17, 107);
+     height:100px;
+    width:400px;
+}
+.scroll .blocks .box4{
+    background-color: rgb(147, 236, 236);
+     height:100px;
+    width:300px;
+}
+.scroll .blocks .box5{
+    background-color: rgb(123, 16, 230);
+     height:100px;
+    width:200px;
+}
+.scroll .blocks .box6{
+    background-color: rgb(230, 18, 117);
+     height:100px;
+    width:100px;
+}
+
+.scroll .blocks .box7{
+    background-color: rgb(226, 40, 40);
+     height:100px;
+     width:500px;
+}
+
+.scroll .blocks .box8{
+    background-color: rgb(34, 236, 7);
+     height:100px;
+     width:400px;
+}
+
