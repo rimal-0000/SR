@@ -319,3 +319,43 @@ nav .nav-sec ul li a:hover{
     from{opacity: 0.4; transform:scale(.4)}
     to{opacity: 1; transform:scale(1)}
 }
+
+.feature-part .services{
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction:column;
+    padding:20px 10%;
+}
+.feature-part .services .service-body{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+
+}
+ .one, .two, .three{
+    height:200px;
+    background-color:#F5F5F5;
+    gap:25px;
+
+}
+
+.feature-part .services .one p, .two p, .three p{
+    color:black;
+    font-size: 15px;
+    padding-top:15px;
+}
+
+.feature-part .services .heading h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+    padding-bottom: 60px;
+}
+
+.feature-part .services .one h3, .two h3, .three h3{
+     font-size:18px;
+     padding-top: 15px;
+}
+
